@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* Layout (global rules for all sizes) */
+body { background-image: none; }
+h2{	font-size: 1.4em; margin: 0; }
+h3{	font-size: 1.1em; margin: 0; }
+/*index page banner layout*/
+.banner_outer{
+	height: 269px;	
+	background: url(../images/banner.jpg) no-repeat right 0px;
+	background-size: contain;
+}
+/*Index and Platform Page*/
+/*index and platform page tretail logo layout*/
+.tretail { 
+	height: 145px; 
+	background: url(../images/tretail-s.jpg) no-repeat left 0px;
+	background-size: contain;
+}
+/*index and platform page tretail links*/
+.promo_container .promo{ 
+	width: auto;
+	margin-right: 20px;
+	padding: 10px 0px 0px 0px;
+	background-position: 20px 13px;
+	border-top: 1px solid #CCC;
+	height: 200px;
+}
+.promo_container .promo { 
+	background-position: 0px 0px; 
+	margin-right: 20px;
+	width: auto;
+	height: 200px;
+	border-top: 1px solid #CCC;
+}
+.red_button {
+    position: relative; 
+	top: -85px;
+}
+.promo_container  .promo .content { padding: 0px 20px 0px 20px;   }
+
+/*Retailing Page*/
+/*index page banner layout*/
+.inspire {
+	background: url(../images/inspire.jpg) no-repeat left 0px;
+	height: 175px;
+	background-size: contain;
+}
+/*OTA page*/
+/*OTA page banner layout*/
+.ota_banner {
+	background: url(../images/header_ota.png) no-repeat right 0px;
+	height: 113px;;
+}
+/*Loyalty page*/
+/*Loyalty page banner layout*/
+.loyalty_banner {
+	background: url(../images/header_loyalty.png) no-repeat right 0px;
+	height: 113px;;
+}
+/*Hotels page*/
+/*Hotels page banner layout*/
+.hotel_banner {
+	background: url(../images/header_hotel.png) no-repeat left 0px;
+	height: 113px;;
+}
+/*Airlines page links*/
+.products .sell {	
+	width: 80%;
+	float: left;
+}
+/*Shopping page*/
+/*Shopping page banner layout*/
+.shopping_banner {
+	background: url(../images/header_shopping.png) no-repeat center 0px;
+	height: 113px;;
+}
+
+
+
+
+
+
+
+
+
+

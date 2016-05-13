@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* Layout (global rules for all sizes) */
+body { background-image: none; }
+h2{	font-size: 1.6em; margin: 0; }
+h3{	font-size: 1.3em; margin: 0; }
+/*index page banner layout*/
+.banner_outer{
+	height: 307px;	
+	background: url(../images/banner.jpg) no-repeat right 0px;
+	background-size: contain;
+}
+/*Index and Platform Page*/
+/*index and platform page tretail logo layout*/
+.tretail { 
+	height: 132px; 
+	background: url(../images/tretail-n.jpg) no-repeat left 0px;
+	background-size: contain;
+}
+/*index and platform page tretail links*/
+.promo_container .promo { 
+	background-position: 0px 0px; 
+	margin-right: 20px;
+	width: auto;
+	height: 200px;
+	border-top: 1px solid #CCC;
+}
+.red_button {
+    position: relative; 
+	top: -85px;
+}
+.promo_container .promo .content{ padding:  0px 20px 0px 20px;  }
+
+
+
+
+
+
+
+
+
+

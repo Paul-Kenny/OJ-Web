@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+body { margin:0; padding: 0;}
+h2{	font-size: 1.8em; margin: 0; }
+h3{	font-size: 1.5em; margin: 0; }
+/*index page banner layout*/
+.banner_outer {
+	background: url(../images/banner.jpg) no-repeat right 0px;
+	height: 377px;
+	background-size: contain;
+}
+/*Index and Platform Page*/
+/*index and platform page tretail logo layout*/
+.tretail { 
+	height: 132px; 
+	background: url(../images/tretail-n.jpg) no-repeat left 0px;
+	background-size: contain;
+	background-color: #f5f5f5;
+}
+/*index and platform page tretail links*/
+.promo_container { padding: 0px 0px 0px 20px; }
+.promo { margin-left: 10px; }
+.promo_container .promo {
+	padding: 10px 0px 0px 0px;
+	width: 23%;
+	float: left;
+	background-position: 0px 3px;
+	height: 300px;
+}
+.promo p { height: 140px; line-height: 1.2em; font-size: .9em; margin-bottom: .5em: }
+.promo h1 { 
+	font-size: 2em; 
+	margin-bottom: 10px; 
+	margin-top: 10px; 
+	color: #e2001a; 
+	text-align: center;
+}
+.promo_container .promo .content { 
+	padding: 0px 20px 0px 20px; 
+	height: 200px;
+}
+.promo_container .promo .content img{ 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Retailing Page*/
+/*retailing page banner layout*/
+.inspire {
+	background: url(../images/inspire.jpg) no-repeat left 0px;
+	height: 179px;
+	background-size: contain;
+}
+/*Airlines page*/
+/*airlines page banner layout*/
+.depart {
+	background: url(../images/airlines.png) no-repeat left 0px;
+	height: 113px;;
+}
+/*OTA page*/
+/*OTA page banner layout*/
+.ota_banner {
+	background: url(../images/header_ota.png) no-repeat left 0px;
+	height: 113px;;
+}
+/*Loyalty page*/
+/*Loyalty page banner layout*/
+.loyalty_banner {
+	background: url(../images/header_loyalty.png) no-repeat left 0px;
+	height: 113px;;
+}
+/*Hotels page*/
+/*Hotels page banner layout*/
+.hotel_banner {
+	background: url(../images/header_hotel.png) no-repeat left 0px;
+	height: 113px;;
+}
+/*Shopping page*/
+/*Shopping page banner layout*/
+.shopping_banner {
+	background: url(../images/header_shopping.png) no-repeat left 0px;
+	height: 113px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
