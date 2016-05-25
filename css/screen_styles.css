@@ -41,37 +41,80 @@ p{ margin: 0 0 .75em 0; }
 	display: inline-block;
 	background-image: url(../images/linkedin.png);
 }
-.social_nav .li:hover { background-image: url(../images/linkedin2.png); }
+.social_nav  a{ 
+		position: absolute;
+		height: 32px; 
+		width:32px;
+		background-color: transparent;
+		border: 15px #000000;
+}
+.social_nav .li:hover { 
+	background-image: url(../images/linkedin2.png);
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .tw { 
 	height: 32px; width:32px;
 	display: inline-block;
 	background-image: url(../images/twitter.png);
 }
-.social_nav .tw:hover { background-image: url(../images/twitter2.png); }
+.social_nav .tw:hover { 
+	background-image: url(../images/twitter2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .fb { 
 	height: 32px; width:32px;
 	display: inline-block;
 	background-image: url(../images/facebook.png);
 }
-.social_nav .fb:hover { background-image: url(../images/facebook2.png); }
+.social_nav .fb:hover { 
+	background-image: url(../images/facebook2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .yt { 
 	height: 32px; width:32px;
 	display: inline-block;
 	background-image: url(../images/youtube.png);
 }
-.social_nav .yt:hover { background-image: url(../images/youtube2.png); }
+.social_nav .yt:hover { 
+	background-image: url(../images/youtube2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .gp { 
 	height: 32px; width:32px;
 	display: inline-block;
 	background-image: url(../images/googleplus.png);
 }
-.social_nav .gp:hover { background-image: url(../images/googleplus2.png); }
+.social_nav .gp:hover { 
+	background-image: url(../images/googleplus2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .ph { 
 	height: 32px; width:32px;
 	display: inline-block;
 	background-image: url(../images/phone.png);
 }
-.social_nav .ph:hover { background-image: url(../images/phone2.png); }
+.social_nav .ph:hover { 
+	background-image: url(../images/phone2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 .social_nav .em { 
 	position: relative;
 	height: 32px; 
@@ -79,13 +122,19 @@ p{ margin: 0 0 .75em 0; }
 	display: inline-block;
 	background-image: url(../images/mail.png);
 }
-.social_nav .em:hover { background-image: url(../images/mail2.png); }
-#box-link{
+.social_nav .em:hover { 
+	background-image: url(../images/mail2.png); 
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+/*#box-link{
 		position: absolute;
 		height: 32px; 
 		width:32px;
 		background-color: transparent;
-}
+}*/
 /*OJ header logo layout*/
 header { 
 	height: 95px;		
@@ -109,8 +158,7 @@ header a.logo {
 input::-webkit-input-placeholder{
     color:#0094a8;
 }
-#search input[type="text"] {
-	
+#search input[type="text"] {	
 	margin-right: 10px;
 	float: right;
     background: url(../images/search-white.png) no-repeat -2px -1px #fcfcfc;
@@ -128,7 +176,6 @@ input::-webkit-input-placeholder{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
     -webkit-transition: all 0.7s ease 0s;
     -moz-transition: all 1s ease 0s;
-    -o-transition: all 0.7s ease 0s;
     transition: all 1s ease 0s;
 }
 #search input[type="text"]:focus {
@@ -173,7 +220,11 @@ li a {
 }
 /*Hover state for top level links*/
 li:hover a {
+	color: #fff;
 	background: #00b2c0;
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
 }
 /*Style for dropdown links*/
 li:hover ul a {
@@ -499,11 +550,12 @@ article a.grey_button {
     border-radius: 4px;
 	box-shadow: 0px 10px 10px 0 #d0d0d0;
 }
-.products h1 { 
+.products h2 { 
 	font-size: 24px; 
 	margin-top: 10px; 
 	color: #C00000;
 }
+
 .products a {
 	color: #346699;
 	height: 110px; 
@@ -612,12 +664,12 @@ article a.grey_button {
 .container-p{
 	max-width: 100%;
 	top: 207px;
-	padding: 80px 0px 0px 0px;
+	padding: 80px 0px 20px 0px;
 	background-color: #fff;
 }
 .container-p .vayant{
 	padding: 10px;
-	text-align: left;
+	text-align: center;
 	margin-left: 50px;
 }
 .container-p .vayant  .image{
@@ -625,11 +677,62 @@ article a.grey_button {
 	text-align: left;
 	width: 400px;
 	height: 180px;
-	background-size: contain;
 }
 #divSection {
+	border: 2px solid #efefef;
+	padding: 20px 20px 0px 0px;
 	display:none;
+	margin: 0px 50px 20px 60px;
 }
+#divSection .right{
+	padding: 0px 0px 10px 10px;
+	width: 45%;
+	margin-bottom: 10px;
+}
+#divSection .left{
+	width: 45%;
+}
+
+.hero{	
+	background: url(../images/Vayant_Hero.jpg) scroll no-repeat left 0px;
+	height: 183px;
+	background-size: contain;
+}
+
+/*responsive vayant hidden content image and layout*/
+@media screen and (max-width : 600px){
+	.container-p .vayant
+	{
+		padding: 10px;
+		text-align: left;
+		margin-left: 20px;
+	}
+	.container-p .vayant  .image
+	{
+	background: url(../images/vayant2.jpg) scroll no-repeat left center;
+	text-align: left;
+	width: 200px;
+	height: 300px;
+	border: 2px solid #efefef;
+	}		
+	#divSection {
+	border: 2px solid #efefef;
+	padding: 20px 40px 0px 0px;
+	display:none;
+	margin: 10px 50px 20px 30px;
+	}
+	#divSection .right{
+	width: 100%;
+	border: none;
+	padding-left: 20px;
+	}
+	#divSection .left{
+	width: 100%;
+	}
+	
+}
+
+
 
 /*Contact Page*/
 /*left*/
@@ -656,7 +759,7 @@ article a.grey_button {
 	background: url(../images/contact.jpg) no-repeat left 0px;
 	height: 113px;;
 }
-/*contactpage map layout*/
+/*contact page map layout*/
 .map {
 	margin: 0px 10px 0px 10px;
 	background: url(../images/Capture.jpg) no-repeat left 0px;
@@ -747,6 +850,22 @@ textarea{
 .btn:active{
 	background-color: #f5f5f5;
 }
+/*Map*/
+    .map {
+        position: relative;
+        padding-bottom: 450px; /* This is the aspect ratio*/
+		margin-bottom: 10px;
+        height: 0;
+        overflow: hidden;
+    }
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+		border:0px
+    }
 
 
 
